@@ -1,0 +1,74 @@
+.rationale {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.team-section {
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+th {
+  background-color: #37003c;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+  width: 25%;
+}
+
+.player-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.player-list li {
+  padding: 4px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.player-list li:last-child {
+  border-bottom: none;
+}
