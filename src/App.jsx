@@ -71,6 +71,7 @@ function App() {
 
   return (
     <div className="app-container">
+      <img src = 'claude-pl.png'></img>
       <h1>FPL Team Displays</h1>
       <h3>Website/teams completely produced by Claude</h3>
       <TeamTable teamName="Team 1" teamData={team1} rationale={rationale1} />
