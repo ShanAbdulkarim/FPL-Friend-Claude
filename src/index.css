@@ -74,6 +74,18 @@ td {
 }
 
 .lion{
-  width:150px;
-  height:150px;
+  width:100px;
+  height:100px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  gap:15px;
+  justify-content: center;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
 }

@@ -71,11 +71,13 @@ function App() {
 
   return (
     <div className="app-container">
-      <div className='row'>
-        <img className = "lion" src = 'claude-pl.png'></img>
-        <h1>Claude FPL teams</h1>
+      <div className='column'>
+        <div className='row'>
+          <img className = "lion" src = 'claude-pl.png'></img>
+          <h1>Claude FPL teams</h1>
+        </div>
+        <h3>Website/teams completely produced by Claude</h3>
       </div>
-      <h3>Website/teams completely produced by Claude</h3>
       <TeamTable teamName="Team 1" teamData={team1} rationale={rationale1} />
       <TeamTable teamName="Team 2" teamData={team2} rationale={rationale2} />
     </div>
