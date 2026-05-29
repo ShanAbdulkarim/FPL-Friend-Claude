@@ -72,3 +72,8 @@ td {
 .player-list li:last-child {
   border-bottom: none;
 }
+
+.lion{
+  width:150px;
+  height:150px;
+}
