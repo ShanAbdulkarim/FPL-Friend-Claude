@@ -73,7 +73,7 @@ function App() {
     <div className="app-container">
       <div className='row'>
         <img className = "lion" src = 'claude-pl.png'></img>
-        <h1>FPL Team Displays</h1>
+        <h1>Claude FPL teams</h1>
       </div>
       <h3>Website/teams completely produced by Claude</h3>
       <TeamTable teamName="Team 1" teamData={team1} rationale={rationale1} />
